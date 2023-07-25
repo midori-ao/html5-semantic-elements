@@ -2,7 +2,7 @@
 
 ## Hands-on Activity
 
-Convert an existing blog website using non-semantic elements to use semantic elements!
+Convert an existing blogging website using non-semantic elements to use semantic elements. Add 2 blog posts, each with a title, content, and 2 comments, using semantic elements.
 
 ### Extra Challenge 1
 
