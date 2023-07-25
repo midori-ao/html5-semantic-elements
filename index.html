@@ -4,33 +4,35 @@
     <title>My Blog</title>
 </head>
 <body>
-    <div id="header">
-        <div id="title">My Blog</div>
-        <div id="post-date">Thursday, July 20, 2023</div>
-    </div>
+    <header>
+        <h1>My Blog</h1>
+        <time datetime="2023-07-20">Thursday, July 20, 2023</time>
+    </header>
 
-    <div id="content">
-        <div id="post1" class="post">
-            <div class="post-title">First Blog Post</div>
-            <div class="post-content">This is the content of my first blog post...</div>
-            <div class="post-comments">
-                <div class="comment">First comment...</div>
-                <div class="comment">Second comment...</div>
-            </div>
-        </div>
-        <div id="post2" class="post">
-            <div class="post-title">Second Blog Post</div>
-            <div class="post-content">This is the content of my second blog post...</div>
-            <div class="post-comments">
-                <div class="comment">First comment...</div>
-                <div class="comment">Second comment...</div>
-            </div>
-        </div>
-    </div>
+    <main>
+        <article id="post1">
+            <h2>First Blog Post</h2>
+            <p>This is the content of my first blog post...</p>
+            <section>
+                <h3>Comments</h3>
+                <p>First comment...</p>
+                <p>Second comment...</p>
+            </section>
+        </article>
+        <article id="post2">
+            <h2>Second Blog Post</h2>
+            <p>This is the content of my second blog post...</p>
+            <section>
+                <h3>Comments</h3>
+                <p>First comment...</p>
+                <p>Second comment...</p>
+            </section>
+        </article>
+    </main>
 
-    <div id="footer">
-        <div id="copyright">&copy; 2023 My Blog</div>
-        <div id="contact">Contact us at info@myblog.com</div>
-    </div>
+    <footer>
+        <p>2023 My Blog</p>
+        <p>Contact us at info@myblog.com</p>
+    </footer>
 </body>
 </html>
